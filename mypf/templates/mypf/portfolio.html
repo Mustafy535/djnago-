@@ -1,0 +1,55 @@
+{% extends 'mypf/base.html' %}
+<!--Extended base html file-->
+
+{% block content %}
+    <!--Header-->
+	<header class="masthead text-light text-center">
+	  <div class="container">
+		<img class="rounded-circle z-depth-0"
+            alt="avatar image" height="300" src="static/mypf/img/1.jpg" >
+		<h1 class="text-uppercase mb-0"> Mustafa Riyad</h1>
+		<hr class="star-light">
+		<h2 class="font-weight-light mb-0">Data Analyst</h2>
+	  </div>
+	</header>
+
+	<!--PORTFOLIO-->
+	<section class="portfolio margin" id="portfolio">
+        <div class="container">
+            <h2 class="text-center text-uppercase text-white mb-0">EXPERIENCE</h2>
+            <hr class="star-dark mb-5 text-light">
+			<div class="row">
+			  <div class="col-sm-6">
+				<div class="card">
+				  <div class="card-body">
+					<h5 class="card-title">First Project</h5>
+					<p class="card-text">SENIOR DATA ANALYST
+CIB Bank /  September 2020 – December 2021<br>
+•	Successfully interpreted data in order to draw conclusions for managerial action and strategy<br>
+•	Used statistical techniques for hypothesis testing to validate data <br>
+•	Presented data and conclusions to team in order to improve strategies and operations<br>
+•	Proposed solutions to improve system efficiencies and reduce total expenses
+</p>
+				  </div>
+				</div>
+			  </div>
+			  <div class="col-sm-6">
+				<div class="card">
+				  <div class="card-body">
+					<h5 class="card-title">Second Project</h5>
+					<p class="card-text">DATA ANALYST
+orange company /  January 2022 - Present<br>
+•	Manage the planning and development of design and procedures for metrics reports<br>
+•	Develop new reports and delegate tasks to team members<br>
+•	Perform market analysis to efficiently achieve objectives, increasing sales by 24%<br>
+•	Investigate and conduct studies on the forecasts, demand, and capital of products
+</p>
+
+				  </div>
+				</div>
+			  </div>
+			</div>
+	</section>
+{% include 'mypf/footer.html' %}
+
+{% endblock %}
